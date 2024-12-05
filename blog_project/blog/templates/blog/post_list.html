@@ -10,7 +10,8 @@
         {% for post in posts %}
         <article class="post-card">
             <p class="favorite-button">
-                <img src="{% static 'images/heart-regular.svg' %}" height="30" width="30" />
+                <img class='bookmark button' data-id="{{ post.id }}" data-action="add_to_favorite"
+                    src="{% static 'images/heart-regular.svg' %}" height="30" width="30" />
             </p>
             <div class="post-content">
                 <span class="post-category">{{ post.category }}</span>
@@ -28,4 +29,38 @@
         {% endfor %}
     </div>
 </section>
+{% endblock %}
+
+{% block domready %}
+const url = '{% url "favorites" %}';
+var options = {
+method: 'POST',
+headers: {'X-CSRFToken': csrftoken},
+mode: 'same-origin'
+}
+document.querySelector('.bookmark')
+.addEventListener('click', function(e){
+e.preventDefault();
+var bookmarkButton = this;
+
+// add request body
+var formData = new FormData();
+formData.append('id', bookmarkButton.dataset.id);
+formData.append('action', bookmarkButton.dataset.action);
+options['body'] = formData;
+// send HTTP request
+fetch(url, options)
+.then(response => response.json())
+.then(data => {
+if (data['status'] === 'ok')
+{
+var previousAction = bookmarkButton.dataset.action;
+// toggle button text and data-action
+var action = previousAction === 'add_to_favorite' ? 'remove_from_favorite' : 'add_to_favorite';
+bookmarkButton.dataset.action = action;
+bookmarkButton.innerHTML = action;
+}
+})
+
+});
 {% endblock %}

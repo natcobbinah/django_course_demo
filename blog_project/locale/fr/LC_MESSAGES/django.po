@@ -3,71 +3,88 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Django Blog\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-05 10:31+0100\n"
-"PO-Revision-Date: 2024-12-04 17:00+0000\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2024-12-05 15:09+0100\n"
+"PO-Revision-Date: 2024-12-05 15:23-0600\n"
+"Last-Translator:   <>\n"
 "Language-Team: French <fr@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.1\n"
 
-#: .\blog\templates\blog\base.html:6 .\blog\templates\blog\base.html:14
+#: .\blog\templates\blog\base.html:7 .\blog\templates\blog\base.html:16
 msgid "Blog Django"
 msgstr "Blog Django"
 
-#: .\blog\templates\blog\base.html:16
+#: .\blog\templates\blog\base.html:18
 msgid "Accueil"
 msgstr "Accueil"
 
-#: .\blog\templates\blog\base.html:18
+#: .\blog\templates\blog\base.html:20
 msgid "Nouvel Article"
 msgstr "Nouvel Article"
 
-#: .\blog\templates\blog\base.html:19
+#: .\blog\templates\blog\base.html:21
+msgid "Categories"
+msgstr "Catégories"
+
+#: .\blog\templates\blog\base.html:22
 msgid "Déconnexion"
 msgstr "Déconnexion"
 
-#: .\blog\templates\blog\base.html:21
+#: .\blog\templates\blog\base.html:24
 msgid "Admin"
 msgstr "Administration"
 
-#: .\blog\templates\blog\base.html:25
+#: .\blog\templates\blog\base.html:28
 msgid "Connexion"
 msgstr "Connexion"
 
-#: .\blog\templates\blog\base.html:26
+#: .\blog\templates\blog\base.html:29
 msgid "Inscription"
 msgstr "Inscription"
 
-#: .\blog\views.py:25
+#: .\blog\templates\blog\category_list.html:7
+msgid "Category Listings"
+msgstr "Liste des catégories"
+
+#: .\blog\templates\blog\post_list.html:7
+msgid "Derniers Articles"
+msgstr "Derniers Articles"
+
+#: .\blog\templates\blog\post_list.html:26
+msgid "Lire la suite →"
+msgstr "Lire la suite →"
+
+#: .\blog\views.py:30
 msgid "Account created successfully!"
-msgstr ""
+msgstr "Compte créé avec succès !"
 
-#: .\blog\views.py:51
+#: .\blog\views.py:87
 msgid "Post created successfully!"
-msgstr ""
+msgstr "Poste créé avec succès !"
 
-#: .\blog\views.py:61
+#: .\blog\views.py:99
 msgid "You don't have permission to edit this post"
-msgstr ""
+msgstr "Vous n'avez pas la permission de modifier ce message"
 
-#: .\blog\views.py:68
+#: .\blog\views.py:106
 msgid "Post updated successfully!"
-msgstr ""
+msgstr "Le message a été mis à jour avec succès !"
 
-#: .\blog\views.py:78
+#: .\blog\views.py:118
 msgid "You don't have permission to delete this post"
-msgstr ""
+msgstr "Vous n'avez pas l'autorisation de supprimer ce message"
 
-#: .\blog\views.py:83
+#: .\blog\views.py:123
 msgid "Post deleted successfully!"
-msgstr ""
+msgstr "Le message a été supprimé avec succès !"
 
-#: .\blog\views.py:89
+#: .\blog\views.py:130
 msgid "You have been logged out successfully."
-msgstr ""
+msgstr "Vous avez été déconnecté avec succès."
 
 #: .\blog_project\settings.py:100
 msgid "English"
@@ -79,4 +96,4 @@ msgstr "Français"
 
 #: .\blog_project\settings.py:102
 msgid "Italian"
-msgstr ""
+msgstr "Italien"

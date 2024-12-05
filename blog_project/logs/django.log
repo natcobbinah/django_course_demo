@@ -3334,3 +3334,80 @@ LINE 1: ..., "blog_post"."slug", "blog_post"."is_published", "blog_post...
 [INFO] 2024-12-05 12:45:36,794 basehttp "GET /it/ HTTP/1.1" 200 3595
 [INFO] 2024-12-05 12:45:38,113 basehttp "GET /static/images/heart-regular.svg HTTP/1.1" 304 0
 [INFO] 2024-12-05 12:45:55,043 basehttp "GET /it/ HTTP/1.1" 200 3595
+[INFO] 2024-12-05 13:01:24,543 autoreload Watching for file changes with StatReloader
+[INFO] 2024-12-05 13:01:28,750 basehttp "GET / HTTP/1.1" 302 0
+[INFO] 2024-12-05 13:01:30,473 basehttp "GET /it/ HTTP/1.1" 200 3595
+[INFO] 2024-12-05 13:01:32,640 basehttp "GET /static/images/heart-regular.svg HTTP/1.1" 304 0
+[INFO] 2024-12-05 13:02:04,337 basehttp "POST /i18n/setlang/ HTTP/1.1" 302 0
+[INFO] 2024-12-05 13:02:04,657 basehttp "GET /it/ HTTP/1.1" 200 3595
+[INFO] 2024-12-05 13:02:55,005 basehttp "GET /it/categories/ HTTP/1.1" 200 2254
+[INFO] 2024-12-05 14:57:24,059 autoreload Watching for file changes with StatReloader
+[INFO] 2024-12-05 14:57:44,678 basehttp "GET / HTTP/1.1" 302 0
+[INFO] 2024-12-05 14:57:50,081 basehttp "GET /it/ HTTP/1.1" 200 4854
+[INFO] 2024-12-05 14:57:51,875 basehttp "GET /static/css/styles.css HTTP/1.1" 304 0
+[INFO] 2024-12-05 14:57:52,640 basehttp "GET /static/images/heart-regular.svg HTTP/1.1" 304 0
+[WARNING] 2024-12-05 14:58:11,369 log Not Found: /favicon.ico
+[WARNING] 2024-12-05 14:58:11,554 basehttp "GET /favicon.ico HTTP/1.1" 404 2359
+[INFO] 2024-12-05 14:58:22,703 views added to favorites
+[INFO] 2024-12-05 14:58:22,819 views added to favorites
+[INFO] 2024-12-05 14:58:22,934 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 14:58:22,982 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 14:58:23,308 views added to favorites
+[INFO] 2024-12-05 14:58:23,487 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 14:58:23,853 views added to favorites
+[INFO] 2024-12-05 14:58:23,866 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 14:58:35,532 views added to favorites
+[INFO] 2024-12-05 14:58:35,651 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 14:59:13,292 views removed from favorites
+[INFO] 2024-12-05 14:59:13,296 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 14:59:42,344 views added to favorites
+[INFO] 2024-12-05 14:59:42,352 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 15:00:19,916 basehttp "GET /it/categories/ HTTP/1.1" 200 2527
+[INFO] 2024-12-05 15:00:25,523 basehttp "GET /it/ HTTP/1.1" 200 4854
+[INFO] 2024-12-05 15:00:29,828 views added to favorites
+[INFO] 2024-12-05 15:00:29,829 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 15:00:33,381 views removed from favorites
+[INFO] 2024-12-05 15:00:33,382 basehttp "POST /it/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 15:10:32,316 autoreload Watching for file changes with StatReloader
+[INFO] 2024-12-05 15:10:45,156 basehttp "GET / HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:10:46,954 basehttp "GET /it/ HTTP/1.1" 200 4854
+[INFO] 2024-12-05 15:10:56,323 basehttp "GET /it/rosetta/files/project/ HTTP/1.1" 200 6399
+[INFO] 2024-12-05 15:10:58,294 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:10:58,304 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:10:58,312 basehttp "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:10:58,354 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:10:58,356 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:10:58,372 basehttp "GET /static/admin/rosetta/css/rosetta.css HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:10:58,411 basehttp "GET /static/admin/rosetta/js/rosetta.js HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:11:05,219 basehttp "GET /it/rosetta/files/project/it/0/ HTTP/1.1" 200 16870
+[INFO] 2024-12-05 15:11:08,072 basehttp "GET /static/admin/img/icon_searchbox_rosetta.png HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:13:14,043 basehttp "POST /it/rosetta/files/project/it/0/ HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:13:17,661 basehttp "GET /it/rosetta/files/project/it/0/?msg_filter=all&ref_lang=msgid&page=2 HTTP/1.1" 200 16790
+[INFO] 2024-12-05 15:17:23,991 basehttp "POST /it/rosetta/files/project/it/0/?msg_filter=all&ref_lang=msgid&page=2 HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:17:24,171 basehttp "GET /it/rosetta/files/project/it/0/?msg_filter=all&ref_lang=msgid&page=3 HTTP/1.1" 200 6258
+[INFO] 2024-12-05 15:18:30,802 basehttp "POST /it/rosetta/files/project/it/0/?msg_filter=all&ref_lang=msgid&page=3 HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:18:30,993 basehttp "GET /it/rosetta/files/project/it/0/?msg_filter=all&ref_lang=msgid&page=3 HTTP/1.1" 200 6268
+[INFO] 2024-12-05 15:18:40,125 basehttp "GET /it/rosetta/files/project/ HTTP/1.1" 200 6400
+[INFO] 2024-12-05 15:18:48,741 basehttp "GET /it/rosetta/files/project/fr/0/ HTTP/1.1" 200 16877
+[INFO] 2024-12-05 15:20:46,971 basehttp "POST /it/rosetta/files/project/fr/0/ HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:20:47,279 basehttp "GET /it/rosetta/files/project/fr/0/?msg_filter=all&ref_lang=msgid&page=2 HTTP/1.1" 200 16704
+[INFO] 2024-12-05 15:22:54,265 basehttp "POST /it/rosetta/files/project/fr/0/?msg_filter=all&ref_lang=msgid&page=2 HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:22:54,873 basehttp "GET /it/rosetta/files/project/fr/0/?msg_filter=all&ref_lang=msgid&page=3 HTTP/1.1" 200 6258
+[INFO] 2024-12-05 15:23:26,224 basehttp "POST /it/rosetta/files/project/fr/0/?msg_filter=all&ref_lang=msgid&page=3 HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:23:26,687 basehttp "GET /it/rosetta/files/project/fr/0/?msg_filter=all&ref_lang=msgid&page=3 HTTP/1.1" 200 6267
+[INFO] 2024-12-05 15:23:40,756 basehttp "POST /it/rosetta/files/project/fr/0/?msg_filter=all&ref_lang=msgid&page=3 HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:23:43,287 basehttp "GET /it/rosetta/files/project/fr/0/?msg_filter=all&ref_lang=msgid&page=3 HTTP/1.1" 200 6267
+[INFO] 2024-12-05 15:23:56,954 basehttp "GET /it/rosetta/files/project/ HTTP/1.1" 200 6402
+[INFO] 2024-12-05 15:24:13,205 basehttp "GET /it HTTP/1.1" 301 0
+[INFO] 2024-12-05 15:24:13,645 basehttp "GET /it/ HTTP/1.1" 200 4861
+[INFO] 2024-12-05 15:24:13,966 basehttp "GET /static/images/heart-regular.svg HTTP/1.1" 304 0
+[INFO] 2024-12-05 15:24:18,298 basehttp "POST /i18n/setlang/ HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:24:18,835 basehttp "GET /fr/ HTTP/1.1" 200 4856
+[INFO] 2024-12-05 15:24:31,973 basehttp "POST /i18n/setlang/ HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:24:32,574 basehttp "GET /fr/ HTTP/1.1" 200 4856
+[INFO] 2024-12-05 15:24:43,270 basehttp "POST /i18n/setlang/ HTTP/1.1" 302 0
+[INFO] 2024-12-05 15:24:43,658 basehttp "GET /fr/ HTTP/1.1" 200 4856
+[INFO] 2024-12-05 15:24:49,135 views added to favorites
+[INFO] 2024-12-05 15:24:49,137 basehttp "POST /fr/favorites/ HTTP/1.1" 200 16
+[INFO] 2024-12-05 15:24:55,097 views removed from favorites
+[INFO] 2024-12-05 15:24:56,197 basehttp "POST /fr/favorites/ HTTP/1.1" 200 16

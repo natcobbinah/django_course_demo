@@ -9,6 +9,8 @@ from django.views.i18n import set_language
 from .models import Post, Category
 from .forms import PostForm, RegisterForm
 from django.db.models import Count
+from django.http import JsonResponse
+from django.views.decorators.http import require_POST
 
 logger = logging.getLogger('blog')
 
@@ -46,6 +48,26 @@ def category_list(request):
     return render(request, "blog/category_list.html", {
         'categories': categories_all,
     })
+
+
+@require_POST
+def add_to_favorites(request):
+    favorite_id = request.POST.get('id')
+    action = request.POST.get('action')
+    if favorite_id and action:
+        try:
+            post = Post.objects.get(id=favorite_id)
+            if action == 'add_to_favorite':
+                post.boomark = True
+                post.save()
+                logger.info("added to favorites")
+            else:
+                post.bookmark = False
+                post.save()
+                logger.info("removed from favorites")
+            return JsonResponse({'status': 'ok'})
+        except Post.DoesNotExist:
+            return JsonResponse({'status': 'error'})
 
 
 def post_detail(request, slug):
