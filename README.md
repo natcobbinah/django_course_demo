@@ -11,6 +11,8 @@ Ce projet est un blog développé avec Django, permettant la gestion d'articles 
 
 ![working2](https://github.com/user-attachments/assets/b4b61c88-0fee-41fa-9cfd-17a8e900e16a)
 
+![working 3 favorites button](https://github.com/user-attachments/assets/e5092008-32fa-4b40-8f35-e63f1e27fc3d)
+
 ## Fonctionnalités
 
 - **Gestion des articles** (CRUD)
