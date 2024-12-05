@@ -6,6 +6,11 @@
 
 Ce projet est un blog développé avec Django, permettant la gestion d'articles et de catégories.
 
+## Images
+![working1](https://github.com/user-attachments/assets/31b49e6e-933b-4afd-a5f6-9b90d19a6d45)
+
+![working2](https://github.com/user-attachments/assets/b4b61c88-0fee-41fa-9cfd-17a8e900e16a)
+
 ## Fonctionnalités
 
 - **Gestion des articles** (CRUD)
@@ -16,10 +21,6 @@ Ce projet est un blog développé avec Django, permettant la gestion d'articles 
 - **URLs conviviales avec slugs**
 - **Design responsive**
 
-## Images
-![working1](https://github.com/user-attachments/assets/31b49e6e-933b-4afd-a5f6-9b90d19a6d45)
-
-![working2](https://github.com/user-attachments/assets/b4b61c88-0fee-41fa-9cfd-17a8e900e16a)
 
 
 ## Prérequis
